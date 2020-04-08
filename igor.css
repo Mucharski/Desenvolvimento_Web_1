@@ -1,0 +1,96 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+}
+
+header {
+    padding: 20px 10px;
+    height: 40px;
+    background-color: #FFA07A;
+}
+
+#primeiraLista {
+    border: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.listaBtn {
+    list-style-type: none;
+    display: inline;
+}
+
+.botoes {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #FFDEAD;
+    padding: 16px;
+    color: black;
+    background-color: white;
+}
+
+.botoes:hover {
+    background-color: black;
+    color: white;
+}
+
+#curriculo {
+    padding-top: 10px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+#informacoesPessoais {
+    padding-top: 10px;
+    text-align: center;
+    width: 25%;
+    border-right: 1px solid black
+}
+
+img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* classe de padding universal */
+
+.padUniversal {
+    padding: 10px 10px;
+}
+
+.titulo2 {
+    color: red;
+}
+
+.opaco {
+    opacity: 0.5;
+}
+
+/* defini que a flex 3 irá organizar as coisas em coluna, para conseguir organizar os títulos e cada aba */
+
+#flex3 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    width: 75%;
+}
+
+/* defini que a flex 2 irá organizar as coisas em linha, para que a escolaridade fique lado a lado */
+
+#flex2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.risquinho {
+    border-bottom: 1px solid black;
+    padding: 10px 10px 10px;
+}

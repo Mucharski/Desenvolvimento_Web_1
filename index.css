@@ -2,43 +2,42 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+header {
   height: 60px;
 }
 
-body{
-    padding: 30px;
-    background-color: #FFA07A;
+body {
+  padding: 30px;
+  background-color: #FFA07A;
 }
 
 h1 {
-    color: black;
-    margin-top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+  color: black;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .botoes {
-    font-family: Arial, Helvetica, sans-serif;
-    border: none;
-    padding: 16px;
-    color: black;
-    background-color: #FFDEAD;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  padding: 16px;
+  color: black;
+  background-color: #FFDEAD;
 }
 
-.botoes:hover{
+.botoes:hover {
   background-color: black;
   color: white;
 }
 
 #primeiraLista {
-    border: 1px solid black;
-    border-left: 0px;
-    border-right: 0px;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
+  border: 1px solid black;
+  border-left: 0px;
+  border-right: 0px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
 .listaBtn {
   list-style-type: none;
@@ -67,11 +66,3 @@ footer {
   font-size: 16px;
   border-top: 1px solid black;
 }
-
-
-
-
-
-
-
-
