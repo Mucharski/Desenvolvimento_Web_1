@@ -1,0 +1,81 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+}
+
+header {
+    padding: 20px 10px;
+    height: 40px;
+    background-color: #FFA07A;
+}
+
+#primeiraLista {
+    border: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.listaBtn {
+    list-style-type: none;
+    display: inline;
+}
+
+.botoes {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #FFDEAD;
+    padding: 16px;
+    color: black;
+    background-color: white;
+}
+
+.botoes:hover {
+    background-color: black;
+    color: white;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+fieldset {
+    padding-left: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.campo {
+    width: 300px;
+    padding-left: 5px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.campo:focus {
+    border: 1px solid red;
+}
+
+#botaoEnvio {
+    width: 300px;
+    background-color: #FFDEAD;
+    border: 1px solid black;
+    margin-bottom: 6px;
+    
+}
+
+#botaoEnvio:hover{
+    background-color: red;
+    color: white;
+}

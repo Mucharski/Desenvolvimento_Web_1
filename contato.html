@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+    <script src="js/form.js"></script>
+    <title>Contato</title>
+</head>
+
+<header>
+    <h1 class="titulo">Desenvolvimento Web I</h1>
+</header>
+
+<body>
+
+    <ul id="primeiraLista">
+        <li class="listaBtn"><a href="igor.html"><button type="button" class="botoes">Aluno 1</button></a></li>
+        <li class="listaBtn"></li><a href="igor.html"><button type="button" class="botoes">Aluno 2</button></a></li>
+        <li class="listaBtn"></li><a href="igor.html"><button type="button" class="botoes">Aluno 3</button></a></li>
+        <li class="listaBtn"></li><a href="contato.html"><button type="button" class="botoes">Contato</button></a></li>
+    </ul>
+
+    <section id="form">
+        <h2>Formulário de Contato</h2>
+        <form action="#">
+            <fieldset>
+                <legend>Informações</legend><br>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" class="campo"><br><br>
+                <label for="email">E-Mail:</label><br>
+                <input type="text" id="email" class="campo"><br><br>
+                <label for="telefone">Telefone:</label><br>
+                <input type="text" id="telefone" class="campo"><br><br>
+                <label for="prioridade">Prioridade:</label><br>
+                <select id="prioridade" class="campo">
+                    <option value="Baixa">Baixa</option>
+                    <option value="Média">Média</option>
+                    <option value="Alta">Alta</option>
+                    <option value="Altíssima">Altíssima</option>
+                </select><br><br>
+                <input type="submit" value="Enviar" id="botaoEnvio" onclick="armazenaLocal()">
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>
